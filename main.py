@@ -561,7 +561,7 @@ def main():
     bot_token = os.environ.get('bot_token')
 
     #set in debug
-    bot_token = '5418040416:AAElMHLF6GlDEHyFawzGWfbuBAjqOekq3BY'
+    bot_token = '5589368700:AAFyKUJ4uBUt9lpdc6X0bYzz4mzUztNr9v8'
 
     bot = ObigramClient(bot_token)
     bot.onMessage(onmessage)
